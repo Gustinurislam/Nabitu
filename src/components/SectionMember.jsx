@@ -1,8 +1,6 @@
-import React from 'react'
-
 const SectionMember = () => {
     return (
-        <div className='border-y border-2 my-10 shadow-md'>
+        <div className='border-y border-2 my-14 shadow-md'>
             <section className='py-20 flex justify-between items-center max-w-3xl mx-auto'>
                 {/* left */}
                 <div className='max-w-[330px] space-y-3'>

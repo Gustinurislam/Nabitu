@@ -1,4 +1,4 @@
-import { FaArrowAltCircleRight } from 'react-icons/fa'
+import { FaChevronCircleRight, FaInfoCircle } from 'react-icons/fa'
 import productStats from '../../data/productStats.json'
 
 const CardStatus = () => {
@@ -15,7 +15,10 @@ const CardStatus = () => {
                         </div>
                     </div>
                     <div className='p-4 space-y-2'>
-                        <p className='font-medium text-sm'>SYIRKAH MUDHOROBAH !</p>
+                        <div className='flex items-center'>
+                            <p className='font-medium text-sm pr-2'>SYIRKAH MUDHOROBAH </p>
+                            <FaInfoCircle />
+                        </div>
                         <h3 className='font-bold text-[#195A32] tracking-wider'>AMK-02 Retail Lebaran Chino 2000 pcs</h3>
                         <p className='text-sm'>Ammar Kids</p>
                         {/* bar */}
@@ -51,7 +54,7 @@ const CardStatus = () => {
                             <div className='flex justify-end cursor-pointer'>
                                 <div className='flex items-center justify-center border bg-[#195A32] p-1 w-28 rounded-md'>
                                     <button className='text-white text-base mr-2'>Lihat</button>
-                                    <FaArrowAltCircleRight color='white' size='15px' />
+                                    <FaChevronCircleRight color='white' size='15px' />
                                 </div>
                             </div>
                         </div>

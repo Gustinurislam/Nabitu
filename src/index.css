@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
 .bar {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
 }

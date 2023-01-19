@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from './Card'
 import CardCount from './CardCount'
 import CardStatus from './CardStatus'

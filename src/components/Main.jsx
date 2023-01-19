@@ -1,8 +1,5 @@
-import { FaBars, FaSistrix } from 'react-icons/fa'
-import Card from './Card'
-import CardCount from './CardCount'
+import { FaBars, FaPlay, FaSistrix } from 'react-icons/fa'
 import Cards from './Cards'
-import CardStatus from './CardStatus'
 
 const Main = () => {
     return (
@@ -15,13 +12,20 @@ const Main = () => {
 
                 {/* title  */}
                 <div className='flex justify-between'>
-                    <div className='space-x-6'>
-                        <select className='w-48 border border-gray-500 p-1 rounded focus:outline-none'>
-                            <option value="">Status</option>
-                        </select>
-                        <select className='w-48 border border-gray-500 p-1 rounded focus:outline-none'>
-                            <option value="">Bidang Usaha</option>
-                        </select>
+                    <div className='space-x-6 flex text-gray-500'>
+                        <div className='flex items-center relative'>
+                            <select className='w-48 border border-gray-500 p-2 rounded focus:outline-none'>
+                                <option value="">Status</option>
+                            </select>
+                            <FaPlay className='rotate-90 absolute right-3' />
+                        </div>
+
+                        <div className='flex items-center relative'>
+                            <select className='w-48 border border-gray-500 p-2 rounded focus:outline-none'>
+                                <option value="">Bidang Usaha</option>
+                            </select>
+                            <FaPlay className='rotate-90 absolute right-3' />
+                        </div>
                     </div>
 
                     {/* option & search */}
@@ -35,6 +39,7 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
+                {/* cards  */}
                 <Cards />
             </div>
         </main>
