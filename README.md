@@ -12,4 +12,16 @@
 
 @React Countdown Timer https://www.npmjs.com/package/react-countdown
 
+# Mobile View :
 
+![Desktop View](ui/mobile.png)
+
+# Tablet View :
+
+![Desktop View](ui/tablet.png)
+
+# Desktop View :
+
+![Desktop View](ui/desktop.png)
+
+Thanks :)
