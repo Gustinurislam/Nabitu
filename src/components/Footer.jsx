@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className='max-w-5xl mx-auto space-y-5 py-6'>
+        <div className='max-w-[310px] md:max-w-xl lg:max-w-5xl mx-auto space-y-5 py-6'>
             <h2 className='text-[#195A1B] font-semibold'>DISCLAIMER</h2>
             <div className='space-y-5'>
                 <p>OTORITAS JASA KEUANGAN TIDAK MEMBERIKAN PERSETUJUAN TERHADAP PENERBIT DAN TiDAK MEMBERIKAN PERNYATAAN MENYETUJUI ATAU TIDAK MENYETUJUI EFEK INI, TIDAK JUGAMENYATAKAN KEBENARAN ATAU KECUKUPAN INFORMASI DALAM LAYANAN URUN DANA INI. SETIAP PERNYATAAN YANG BERTENTANGAN DENGAN HAL TERSEBUT ADALAH PERBUATAN MELANGGAR HUKUM</p>

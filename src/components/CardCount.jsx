@@ -64,7 +64,6 @@ const CardCount = () => {
                     </div>
                 </div>
             </div>
-
         </section>
     )
 }

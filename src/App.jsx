@@ -6,7 +6,7 @@ import SectionMember from "./components/SectionMember"
 
 function App() {
   return (
-    <div className="scrollbar scrollbar-thumb-[#195A32] scrollbar-track-white scrollbar-thumb-rounded h-screen">
+    <div className="scrollbar scrollbar-thumb-[#195A32] scrollbar-track-white scrollbar-thumb-rounded overflow-y-scroll">
       <Header />
       <Main />
       <SectionMember />
