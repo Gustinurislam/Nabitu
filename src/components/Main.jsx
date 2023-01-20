@@ -14,14 +14,14 @@ const Main = () => {
                 <div className='flex justify-between'>
                     <div className='space-x-1 sm:space-x-6 flex text-gray-500'>
                         <div className='flex items-center relative'>
-                            <select className='w-20 sm:w-40 lg:w-48 border border-gray-500 p-1 rounded focus:outline-none'>
+                            <select className='w-20 sm:w-40 lg:w-48 border border-gray-500 p-1 rounded focus:outline-none cursor-pointer'>
                                 <option>Status</option>
                             </select>
                             <FaPlay className='rotate-90 absolute right-2' />
                         </div>
 
                         <div className='flex items-center relative'>
-                            <select className='w-32 sm:w-40 lg:w-48 border border-gray-500 p-1 rounded focus:outline-none'>
+                            <select className='w-32 sm:w-40 lg:w-48 border border-gray-500 p-1 rounded focus:outline-none cursor-pointer'>
                                 <option>Bidang Usaha</option>
                             </select>
                             <FaPlay className='rotate-90 absolute right-2' />

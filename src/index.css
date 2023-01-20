@@ -12,3 +12,7 @@ select {
 .bar {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
 }
+
+.btn-hamburger {
+@apply cursor-pointer border sm:border-none sm:shadow-none p-1 text-green-800 sm:text-black rounded shadow-sm border-green-600
+}
