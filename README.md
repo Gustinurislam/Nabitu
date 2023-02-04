@@ -23,5 +23,3 @@
 ## Desktop View :
 
 ![Desktop View](ui/desktop.png)
-
-Thanks :)
