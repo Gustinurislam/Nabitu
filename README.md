@@ -1,4 +1,4 @@
-# Nabitu Slicing Test
+# Nabitu
 ## Tech Stack :
 @Vite React.Js https://vitejs.dev/guide/
 
